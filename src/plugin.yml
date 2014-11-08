@@ -1,0 +1,23 @@
+name: ChatV3
+main: chatv3.main
+version: 1.0
+author: V3lop5
+description: Chat Plugin fuer DayZ von TRIBE
+permissions:
+  chat.admin:
+    default: op
+    description: BuildPerm
+    children:
+      chat.global: true
+  chat.global:
+    description: Global Chat Permission
+    default: op
+  chat.member:
+    description: Member Chat Permission
+    default: true
+  chat.premium:
+    description: Premium Chat Permission
+    default: op
+  chat.admin:
+    description: Admin Chat Permission
+    default: op
